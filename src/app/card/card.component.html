@@ -1,0 +1,16 @@
+<div class="item-container">
+    <img [src]="item?.image"/>
+    <div class="item-detail">
+      <div>
+      <span class="price">RRP </span>
+      <span class="amount">&#xa3;{{item?.price}}</span>
+    </div>
+      <div class="item-name">
+        <span class="type">{{item?.type}} </span>
+        <span class="name">{{item?.name}}</span>
+        <div class="size"> Size: {{item?.size}}</div>
+        <div class="rental">&#xa3;{{item?.rental?.toFixed(2)}} Rental</div>
+      </div>
+     
+    </div>
+  </div>

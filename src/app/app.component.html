@@ -1,0 +1,15 @@
+ 
+
+<main >
+  <img class="settings" src="assets/person-cog.svg"/>
+<div class="main">
+  <div *ngFor="let item of itemList">
+  <app-card [item] = "item"></app-card>
+
+  </div>
+</div>
+</main>
+
+ 
+
+<router-outlet />

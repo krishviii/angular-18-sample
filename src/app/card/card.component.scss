@@ -1,0 +1,41 @@
+.item-container{
+    img{
+        width:300px;
+        cursor: pointer;
+    }
+    }
+    .item-detail{
+        width: 300px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .price{
+        color: #a3a3a3;
+        font-size: 12px;
+    }
+    .amount {
+        font-size: 12px;
+        color: #a3a3a3;
+    }
+   
+    .type{
+        color: #a89280;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .name{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .size{
+        font-size: 18px;
+        color: #666666;
+        line-height: 2;
+    }
+    .rental{
+        font-size: 18px;
+        color: #666666;
+        
+    }
